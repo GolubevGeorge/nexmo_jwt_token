@@ -4,6 +4,6 @@ const sha1 = require("crypto-js/sha1");
 
 module.exports = (data) => {
     //data.res = sha1(data.in).toString(); 
-     data.hello = "Hello World!" + data.in;
+     data.hello = "Hello World!" + "ccc";
     return data;
 };
