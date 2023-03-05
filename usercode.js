@@ -1,7 +1,5 @@
-const str = require("str");
-
 module.exports = (data) => {
    
-     data.hello = "Hello World!" + str;
+     data.hello = "Hello World!" + data.str;
     return data;
 };
