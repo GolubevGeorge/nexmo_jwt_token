@@ -1,10 +1,10 @@
 {
   "name": "nexmo_jwt_generator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "IVR",
   "main": "get_jwt.js",
   "scripts": {
-   
+    "test": "grunt --trace-warnings"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   },
   "homepage": "https://github.com/GolubevGeorge/nexmo_jwt_generator/#readme",
   "dependencies": {
-  }
+  },
+   "engines": {
+        "node": ">=6.0.0"
+    }
 }
