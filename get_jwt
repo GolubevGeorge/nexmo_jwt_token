@@ -2,7 +2,7 @@
 
 const sha1 = require("crypto-js/sha1");
 
-function Get_JWT(secret) {
+async function Get_JWT(secret) {
     if (secret == "x") {
         return x + " !!!!";
     } else {
