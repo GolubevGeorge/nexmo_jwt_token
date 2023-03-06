@@ -1,6 +1,6 @@
 {
   "name": "nexmo_jwt_generator",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "IVR",
   "main": "get_jwt.js",
   "scripts": {
