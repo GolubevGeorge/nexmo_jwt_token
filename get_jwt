@@ -1,6 +1,6 @@
 'use strict';
 
-exports.module.Get_JWT = function(secret) {
+module.exports.Get_JWT = function(secret) {
     if (secret == "x") {
         return secret + " !!!!";
     } else {
