@@ -1,11 +1,12 @@
 module.exports = (data) => {
-    return new Promise(jwtGet(resolve, reject, data.in));
-};
-
-function jwtGet(secret) {
-    if (secret == "x") {
-        resolve("TEST" + secret);
+    return new Promise(function(resolve, reject, data.in){
+    
+     if (data.in == "x") {
+        resolve("TEST" + data.in);
     } else {
-        reject(new Error(secret + "Error"));
+        reject(new Error(data.in + "Error"));
     }
-}
+    
+    
+    });
+};
