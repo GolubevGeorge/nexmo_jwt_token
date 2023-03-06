@@ -1,3 +1,4 @@
+module.exports = (data) => {
 function jwtGet(secret) {
 
   return new Promise(function(resolve, reject) {
@@ -10,4 +11,5 @@ function jwtGet(secret) {
       }
   
   });
+}
 }
