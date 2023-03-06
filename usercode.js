@@ -1,12 +1,10 @@
+
+// build command: npm install crypto-js
+
+const sha1 = require("crypto-js/sha1");
+
 module.exports = (data) => {
-    return new Promise(function(resolve, reject, data){
+    data.res = sha1(data.in).toString(); 
     
-     if (data == "x") {
-        resolve("TEST" + data.in);
-    } else {
-        reject(new Error(data + "Error"));
-    }
-    
-    
-    });
+    return data;
 };
