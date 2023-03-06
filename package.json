@@ -2,9 +2,9 @@
   "name": "nexmo_jwt_generator",
   "version": "1.0.0",
   "description": "IVR",
-  "main": "usercode.js",
+  "main": "get_jwt.js",
   "scripts": {
-    "start": "node usercode.js"
+    "start": "node get_jwt.js"
   },
   "repository": {
     "type": "git",
