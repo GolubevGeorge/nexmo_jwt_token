@@ -4,7 +4,7 @@
   "description": "IVR",
   "main": "get_jwt.js",
   "scripts": {
-    "start": "node get_jwt.js"
+    "test": "node get_jwt.js"
   },
   "repository": {
     "type": "git",
