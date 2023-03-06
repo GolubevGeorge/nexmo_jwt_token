@@ -1,10 +1,10 @@
 module.exports = (data) => {
-    return new Promise(function(resolve, reject, data.in){
+    return new Promise(function(resolve, reject, data){
     
-     if (data.in == "x") {
+     if (data == "x") {
         resolve("TEST" + data.in);
     } else {
-        reject(new Error(data.in + "Error"));
+        reject(new Error(data + "Error"));
     }
     
     
