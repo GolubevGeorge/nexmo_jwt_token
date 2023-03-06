@@ -1,0 +1,21 @@
+{
+  "name": "nexmo_jwt_generator",
+  "version": "1.0.0",
+  "description": "IVR",
+  "main": "usercode.js",
+  "scripts": {
+    "start": "node usercode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GolubevGeorge/nexmo_jwt_generator.git"
+  },
+  "author": "George",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GolubevGeorge/nexmo_jwt_generator/issues"
+  },
+  "homepage": "https://github.com/GolubevGeorge/nexmo_jwt_generator/#readme",
+  "dependencies": {
+  }
+}
