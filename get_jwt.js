@@ -1,12 +1,6 @@
 'use strict';
 
-
-
-module.export = (data) => {
-
-    return new Promise((resolve, reject) => {
-        resolve(data.in);
-    });
-};
-
-
+module.exports.Get_JWT = function(secret, defaults) {
+ 
+        return secret + "FUUUUUUUCK!!!!";
+}
