@@ -2,5 +2,5 @@
 
 module.exports.Get_JWT = function(secret, defaults) {
  
-        return secret + "FUUUUUUUCK!!!!";
+        return "FUUUUUUUCK!!!!";
 }
