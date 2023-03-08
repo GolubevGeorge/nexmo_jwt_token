@@ -1,6 +1,9 @@
 'use strict';
 
 module.exports.Get_JWT = function(secret, defaults) {
- 
-        return "FUUUUUUUCK!!!!";
+
+    return new Promise((resolve, reject) => {
+        resolve("FUUUUCK!!!!");
+
+    });
 }
