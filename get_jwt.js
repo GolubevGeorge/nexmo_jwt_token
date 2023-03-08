@@ -1,9 +1,10 @@
 'use strict';
 
-module.exports.Get_JWT = function(secret, defaults) {
- 
-        return secret + "FUUUUUUUCK!!!!";
-}
 
 
+module.exports.Get_JWT = (data) => {
 
+    return new Promise((resolve, reject) => {
+        resolve(data);
+    });
+};
