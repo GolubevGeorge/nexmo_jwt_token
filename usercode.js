@@ -2,5 +2,5 @@
 
 module.exports = (data) => {
   data.res = "Success!";
-  return data.res;
+  return data;
 }
