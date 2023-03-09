@@ -2,9 +2,11 @@
 
 const str = require('get_jwt');
 
-var res1 = str("qqqqq");
+
 
 module.exports = (data) => {
+  
+  var res1 = str("qqqqq");
   data.res = "Success!" + data.x + res1;
   return data;
 }
