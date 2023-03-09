@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.GET_JWT = function(data) {
-  data.res = "Success CCCCCC" + data.x;
-  return data;
+module.exports.GET_JWT = function(data1) {
+
+  return "Success CCCCCC" + data1;
 }
