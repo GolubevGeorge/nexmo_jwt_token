@@ -5,6 +5,6 @@
   return "Success CCCCCC" + data1;
 }*/
 
-function GET_JWT(str) {
+global.function GET_JWT(str) {
 return "Success CCCCCC" + str;
 }
