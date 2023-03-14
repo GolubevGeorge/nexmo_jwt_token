@@ -1,4 +1,4 @@
-var xhr = require('xhr2')
+var xhr = require('xhr2');
 
 module.exports = (data) => {
     return new Promise((resolve, reject) => {
