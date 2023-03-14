@@ -1,7 +1,7 @@
 require('xhr2');
 
 module.exports = (data) => {
-  
+  return new Promise((resolve, reject) => {
   let xhr = new XMLHttpRequest();
 
 xhr.open('POST', 'https://api.nexmo.com/v1/calls');
@@ -46,5 +46,5 @@ xhr.send({
 data.result = xhr.status;
 
     
-    return data;
-};
+   resolve(data);
+  }};
