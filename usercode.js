@@ -3,7 +3,7 @@
 module.exports = (data) => {
     return new Promise((resolve, reject) => {
        
-        var xhr = require('xhr2');
+        var xhr = require('xhr');
         xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://api.nexmo.com/v1/calls');
 
