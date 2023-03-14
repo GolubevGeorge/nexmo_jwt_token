@@ -3,22 +3,12 @@
   "version": "0.0.1",
   "description": "IVR",
   "main": "get_jwt.js",
-  "scripts": {
-    "test": "grunt --trace-warnings"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GolubevGeorge/nexmo_jwt_generator.git"
+    "url": "https://github.com/GolubevGeorge/nexmo_jwt_generator.git"
   },
   "author": "George",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GolubevGeorge/nexmo_jwt_generator/issues"
-  },
   "homepage": "https://github.com/GolubevGeorge/nexmo_jwt_generator/#readme",
-  "dependencies": {
-  },
-   "engines": {
-        "node": ">=6.0.0"
-    }
+  "keywords": []
 }
