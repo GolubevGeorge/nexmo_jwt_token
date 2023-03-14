@@ -1,4 +1,10 @@
 module.exports = (data) => {
+    
+    npm install node-fetch
+
+// Require node-fetch in your code
+const fetch = require('node-fetch');
+    
     return new Promise((resolve, reject) => {
         const requestOptions = {
             method: 'POST',
