@@ -1,4 +1,3 @@
-var XMLHttpRequest = require('xhr2');
 
 module.exports = (data) => {
     return new Promise((resolve, reject) => {
